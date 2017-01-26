@@ -1,0 +1,173 @@
+section.philosophy-hero {
+	margin: 10px 0 0px 0;
+	padding: 60px 0;
+	background: linear-gradient(rgba(93, 111, 125, 0.9), rgba(93, 111, 125, 0.1)), url(images/philosophy-hero.jpg) no-repeat center center;
+	background-size: cover;
+	color: white;
+
+	@media only screen and (max-width: $screen-sm) {
+		margin-bottom: 45px;
+	}
+
+	.phil-content-wrap {
+		padding: 0 90px;
+
+		&.contact-content-wrap {
+			padding: 0;
+		}
+
+		@media only screen and (max-width: $screen-m-tablet) {
+			padding: 0 40px;
+		}
+
+		@media only screen and (max-width: $screen-sm) {
+			padding: 0 20px;
+			text-align: center;
+		}
+
+		.phil-hero-title {
+			margin-bottom: 30px;
+			text-transform: uppercase;
+		}
+
+		.phil-hero-body {
+			font-size: 16px;
+
+			&.contact-hero-body {
+				font-size: 20px;
+			}
+
+			p {
+				margin-bottom: 30px;
+
+				&.p-last {
+					margin-bottom: 0;
+				}
+
+				&.p-founder {
+					text-transform: uppercase;
+
+					span {
+						font-weight: 600;
+						letter-spacing: 1px;
+					}
+				}
+			}
+		}
+	}
+}
+
+section.sub-nav, section.sub-nav-scroll {
+	margin-bottom: 90px;
+
+	@media only screen and (max-width: $screen-sm) {
+		margin-bottom: 0;
+	}
+
+	.m-navbar {
+		border: 0;
+		background-color: white!important;
+		border-bottom: 1px solid lighten($blueblack, 45%);
+
+		@media only screen and (max-width: $screen-sm) {
+			margin-bottom: 0;
+		}
+	}
+
+	.m-navbar-collapse {
+		text-align: center;
+	}
+
+	.m-navbar-nav {
+		float: none!important;
+		display: inline-block;
+
+		li {
+
+			a {
+				padding: 30px 30px 25px 30px;
+				text-transform: uppercase;
+				font-size: 16px;
+				@include simple-ease
+
+				&:hover {
+					color: $green;
+				}
+			}
+		}
+	}
+}
+
+section.sub-nav-scroll {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	display: none;
+	z-index: 999;
+}
+
+section.philosophy-area {
+	margin-bottom: 90px;
+
+	@media only screen and (max-width: $screen-sm) {
+		margin-bottom: 45px;
+	}
+
+	.phil-area-img {
+		@media only screen and (max-width: $screen-sm) {
+			margin-bottom: 45px;
+		}
+	}
+
+	img {
+		border-radius: 0 3px 3px 0;
+
+		&.img-border-alt {
+			border-radius: 3px 0 0 3px;
+		}
+	}
+
+	.phil-area-cont-wrap {
+		padding: 0 60px;
+		@include vertical-align();
+
+		@media only screen and (max-width: $screen-sm) {
+			padding: 0 20px;
+			text-align: center;
+			transform: none;
+		}
+
+		.phil-area-title {
+			font-weight: 500;
+			color: $orange;
+			margin-bottom: 30px;
+			font-size: 44px;
+			text-transform: uppercase;
+
+			@media only screen and (max-width: $screen-m-tablet) {
+				margin-bottom: 20px;
+			}
+
+			@media only screen and (max-width: $screen-sm) {
+				font-size: 30px;
+			}
+		}
+
+		.phil-area-body {
+			font-size: 16px;
+			line-height: 1.8;
+
+			@media only screen and (max-width: $screen-m-tablet) {
+				line-height: 1.6;
+			}
+		}
+	}
+}
+
+section.phil-vert-line {
+	margin-bottom: 90px;
+
+	@media only screen and (max-width: $screen-sm) {
+		margin-bottom: 45px;
+	}
+}

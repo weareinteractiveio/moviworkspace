@@ -1,0 +1,60 @@
+nav {
+  padding: 120px 0 0 0;
+
+  @media only screen and (max-width: $screen-m-tablet) {
+    padding: 90px 0 0 0;
+  }
+
+  .logo {
+    @include vertical-align();
+
+    @media only screen and (max-width: $screen-sm) {
+      max-width: 170px;
+      margin: 0 auto 15px auto;
+    }
+  }
+
+  .nav-strapline {
+    @include vertical-align();
+
+    p {
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+      span {
+        font-weight: 700;
+        color: $green;
+      }
+    }
+
+    @media only screen and (max-width: $screen-sm) {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  }
+
+  .hori-line-cont {
+    @include vertical-align();
+  }
+
+  .hori-line {
+    display: block;
+    height: 1px;
+    background-color: lighten($blueblack, 30%);
+
+    @media only screen and (max-width: $screen-sm) {
+      display: none;
+    }
+  }
+
+  .menu-btn-cont {
+    @include vertical-align();
+
+    @media only screen and (max-width: $screen-sm) {
+      text-align: center;
+      float: none!important;
+    }
+  }
+}
