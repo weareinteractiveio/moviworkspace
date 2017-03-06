@@ -1,0 +1,137 @@
+nav {
+  // padding: 120px 0 0 0;
+
+  @media only screen and (max-width: $screen-m-tablet) {
+    // padding: 90px 0 0 0;
+  }
+
+  &.navbar-movi {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    @include box-shadow(0,0,16px,0 lighten($blueblack, 48%));
+    li {
+      a {
+        padding: 30px 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 13px;
+        line-height: 21px;
+        @media only screen and (max-width: $screen-sm) {
+          padding: 15px;
+        }
+      }
+    }
+    .navbar-brand {
+      padding: 20px 15px;
+    }
+    .navbar-text {
+      font-size: 16px;
+      margin-top: 30px;
+      span {
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $green;
+      }
+    }
+    .navbar-nav {
+      li {
+        &.active {
+          a, a:hover, a:focus {
+            background-color: transparent;
+            color: $green;
+            border-bottom: 2px solid $green;
+            @media only screen and (max-width: $screen-sm) {
+              border-bottom: 0;
+            }
+          }
+        }
+        a {
+          @include simple-ease;
+          &:hover {
+            color: $green;
+          }
+        }
+      }
+    }
+    .navbar-header {
+      @media only screen and (max-width: $screen-sm) {
+        height: 80px;
+      }
+      .navbar-toggle {
+        margin-top: 23px;
+        border: 0;
+        &:hover, &:focus {
+          background-color: transparent;
+        }
+        .icon-bar {
+          background-color: $green;
+        }
+      }
+    }
+  }
+
+  .logo {
+    @include vertical-align();
+
+    @media only screen and (max-width: $screen-sm) {
+      max-width: 170px;
+      margin: 0 auto 15px auto;
+    }
+  }
+
+  .nav-strapline {
+    @include vertical-align();
+
+    p {
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+      span {
+        font-weight: 700;
+        color: $green;
+      }
+    }
+
+    @media only screen and (max-width: $screen-sm) {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  }
+
+  .hori-line-cont {
+    @include vertical-align();
+  }
+
+  .hori-line {
+    display: block;
+    height: 1px;
+    background-color: lighten($blueblack, 30%);
+
+    @media only screen and (max-width: $screen-sm) {
+      display: none;
+    }
+  }
+
+  .menu-btn-cont {
+    @include vertical-align();
+
+    @media only screen and (max-width: $screen-sm) {
+      text-align: center;
+      float: none!important;
+    }
+  }
+}
+
+/*Nav fix on tablet*/
+.navbar-right {
+  @media only screen and (max-width: $screen-lg) {
+    float: left!important;
+  }
+}
+
+.navbar-collapse {
+  max-height: none!important;
+}

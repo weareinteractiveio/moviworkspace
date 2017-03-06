@@ -35,7 +35,7 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     
-    <nav>
+    <!-- <nav>
       <div class="container">
         <div class="row">
           <div class="col-md-2">
@@ -60,7 +60,38 @@
           </div>
         </div>
       </div>
+    </nav> -->
+
+    <!-- Updated Nav -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-movi">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="images/moviworkspace-logo.svg" width="100px" alt="Movi Workspace Logo" /></a>
+          <p class="navbar-text hidden-md hidden-xs">Standing desks <span>improved</span></p>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="philosophy.html">Philosophy</a></li>
+            <li><a href="desk.html">Desk</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+            <li><button type="button" class="btn btn-default navbar-btn m-btn m-btn-nav">Learn More</button></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
+    <!-- End of updated nav-->
 
     <section class="philosophy-hero contact-hero">
       <div class="container-fluid contact-hero-container">
@@ -79,32 +110,21 @@
       </div>
     </section>
 
-    <section class="map">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div id="map">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section class="contact-cta">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
             <div class="contact-cta-header">
               <h2 class="page-title">Come in for a coofee, take a look around or simply just get in touch.</h2>
               <p>If you are enquiring about purchasing more than 10 awesome desks give us a call or fill in the form below.</p>
             </div>
           </div>
-        </div>
-        <div class="row">
+        </div> -->
+        <!-- <div class="row">
           <div class="col-md-12">
             <div class="h-line"></div>
           </div>
-        </div>
+        </div> -->
         <div class="row">
           <div class="col-md-6">
             <form class="form-horizontal">
@@ -123,7 +143,7 @@
                   <textarea class="form-control" rows="3" placeholder="Message"></textarea>
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group row-clean">
                 <div class="col-md-12 text-center">
                   <button type="submit" class="btn btn-default m-btn m-btn-green m-btn-min">Send</button>
                 </div>
@@ -165,6 +185,17 @@
       </div>
     </section>
 
+    <section class="map">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="map">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="phil-vert-line">
       <div class="container-fluid">
         <div class="row">
@@ -179,17 +210,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-center end-page-img">
-            <img src="images/footer-product-img.jpg" width="85%" alt="Movi Workspace Desk Image" />
+            <img src="images/homepage-desk-bottom.png" width="85%" alt="Movi Workspace Desk Image" />
           </div>
           <div class="col-md-6">
             <div class="end-page-title">
-              <p>Improve your health while you work</p>
+              <p>IMPROVE YOUR HEALTH & ACTIVATE YOUR WORKSPACE</p>
             </div>
-            <div class="end-page-price">
+            <!-- <div class="end-page-price">
               <p>$695</p>
-            </div>
+            </div> -->
             <div class="end-page-cta">
-              <a href="#!" class="btn btn-default m-btn m-btn-min m-btn-green m-btn-lg">Pre-order</a>
+              <a href="#!" class="btn btn-default m-btn m-btn-min m-btn-green m-btn-lg">Learn More</a>
             </div>
           </div>
         </div>
@@ -221,6 +252,11 @@
         </div>
       </div>
     </footer>
+
+    <div class="alert alert-warning alert-dismissible fade in fixed-bottom" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+      Patent is currently pending for the movi-workspace desk.
+    </div>
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

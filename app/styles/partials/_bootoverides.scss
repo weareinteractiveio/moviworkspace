@@ -1,0 +1,15 @@
+.popover {
+	border-radius: 0;
+	background: $orange;
+	color: white;
+	border: 0;
+	padding: 10px;
+}
+
+.popover.left {
+	margin-left: -15px;
+}
+
+.popover.left > .arrow:after {
+	border-left-color: $orange;
+}

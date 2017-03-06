@@ -1,0 +1,20 @@
+#mc_embed_signup{
+	clear: left;
+	width: 100%;
+}
+
+#mc_embed_signup .button {
+	font: 16px;
+	text-transform: uppercase;
+	background-color: $orange!important;
+	@include box-shadow(0px, 0px, 16px, 2px darken($green, 6%));
+	&:hover {
+		background-color: darken($orange, 5%)!important;
+	}
+}
+
+#mc_embed_signup input.email {
+	border: 0!important;
+	margin-right: 4px!important;
+	@include box-shadow(0px, 0px, 16px, 2px darken($green, 6%));
+}

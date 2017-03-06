@@ -5,11 +5,15 @@ $icon-font-path: '../fonts/';
 // endbower
 
 @import "partials/colours";
+@import "partials/mixins";
 @import "partials/global";
+@import "partials/bootoverides";
 @import "partials/transitions";
 @import "partials/typography";
 @import "partials/buttons";
 @import "partials/nav";
 @import "partials/home";
 @import "partials/philosophy";
+@import "partials/product";
 @import "partials/contact";
+@import "partials/mailchimp";
