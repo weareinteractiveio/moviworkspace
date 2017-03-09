@@ -33,15 +33,35 @@
 		}
 	}
 
+	&.m-btn-green-block {
+		background-color: $green;
+		color: white;
+		padding: 6px 50px 6px 50px;
+
+			&:hover {
+        		background-color: darken($green,5%);
+        }
+	}
+
 	&.m-btn-orange {
 		border: 1px solid $orange;
 		color: $orange;
 
-		&:hover {
+	    &:hover {
 			background-color: $orange;
 			color: white;
 		}
+
+		&.m-btn-orange-block {
+			background-color: $orange;
+			color: white;
+
+			&:hover {
+				background-color: darken($orange, 5%);
+			}
+		}
 	}
+
 
 	&.m-btn-white {
 		border: 1px solid white;
@@ -95,9 +115,11 @@
 		padding: 0;
 		font-size: 12px;
 		font-weight: 400;
+		color: white;
 
 		&:hover {
 			border-bottom: 0;
+			color: $orange;
 		}
 	}
 }

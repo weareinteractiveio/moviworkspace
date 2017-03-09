@@ -1,0 +1,37 @@
+.book {
+
+	h1 {
+		font-size: 44px;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: $orange;
+		margin-bottom: 0px;
+		padding: 150px 0 0 0;
+		text-align: center;
+
+	}
+
+	img {
+		margin-top: 80px;
+	}
+
+	p {
+		font-size: 22px;
+		margin-bottom: 0px;
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	.btn-wrapper {
+		padding: 60px 0 80px 0;
+		@media only screen and (max-width: $screen-sm) {
+		display: table;
+		vertical-align: middle;
+
+		}
+	}
+
+	button {
+		margin-top: 20px;
+	}
+}
