@@ -77,18 +77,303 @@
           <ul class="nav navbar-nav navbar-right">
             <!-- <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li> -->
             <!-- <li><a href="philosophy.html">Philosophy</a></li> -->
-            <li><a href="desk.html">Desk</a></li>
+            <!-- <li><a href="desk.html">Desk</a></li> -->
             <li class="active"><a href="book.html">Book</a></li>
             <li><a href="philosophy.html">Philosophy</a></li>
             <li><a href="blog.html">Blog</a></li>
             <!-- <li><a href="contact.html">Contact Us</a></li> -->
-            <li><button type="button" class="btn btn-default navbar-btn m-btn m-btn-nav" href="desk.html">Learn More</button></li>
+            <li>
+              <form action="desk.html">
+                <button type="button submit" class="btn btn-default navbar-btn m-btn m-btn-nav">The Movi Desk</button>
+              </form>
+            </li>
           </ul>
           </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
         <!-- End of updated nav-->
-        <div class="container-fluid">
+
+        <section class="book">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>The Sitting Epidemic</h1>
+                <p>How physical inactivity and sitting are causing a health crisis for the modern world</p>
+                <p class="name">by Dan Angelini</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <img src="images/book.png" width="250px" alt="The Sitting Epidemic Book" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <ul class="book-btn-list">
+                  <li class="first-btn">
+                    <form action="pdf/MoviWorkspace_Book_Dec_7th.pdf">
+                      <button type="button submit" class="btn btn-default m-btn m-btn-green m-btn-green-block book-page">Free Sample</button>
+                    </form>
+                  </li>
+                  <li>
+                    
+
+                  <div id='product-component-996bb1ffa81'></div>
+                    <script type="text/javascript">
+                    /*<![CDATA[*/
+                    (function () {
+                      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                      if (window.ShopifyBuy) {
+                        if (window.ShopifyBuy.UI) {
+                          ShopifyBuyInit();
+                        } else {
+                          loadScript();
+                        }
+                      } else {
+                        loadScript();
+                      }
+
+                      function loadScript() {
+                        var script = document.createElement('script');
+                        script.async = true;
+                        script.src = scriptURL;
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                        script.onload = ShopifyBuyInit;
+                      }
+
+                      function ShopifyBuyInit() {
+                        var client = ShopifyBuy.buildClient({
+                          domain: 'movi-workspace.myshopify.com',
+                          apiKey: '7b1343985d69c5b8f537861d14c9e84f',
+                          appId: '6',
+                        });
+
+                        ShopifyBuy.UI.onReady(client).then(function (ui) {
+                          ui.createComponent('product', {
+                            id: [6054908993],
+                            node: document.getElementById('product-component-996bb1ffa81'),
+                            moneyFormat: '%24%7B%7Bamount%7D%7D',
+                            options: {
+                      "product": {
+                        "variantId": "all",
+                        "width": "240px",
+                        "contents": {
+                          "img": false,
+                          "title": false,
+                          "variantTitle": false,
+                          "price": false,
+                          "description": false,
+                          "buttonWithQuantity": false,
+                          "quantity": false
+                        },
+                        "text": {
+                          "button": "Download Book"
+                        },
+                        "styles": {
+                          "product": {
+                            "@media (min-width: 601px)": {
+                              "max-width": "100%",
+                              "margin-left": "0",
+                              "margin-bottom": "50px",
+                            }
+                          },
+                          "button": {
+                            "width": "200px",
+                            "background-color": "#fe8709",
+                            "text-transform": "uppercase",
+                            "padding": "15px 0px",
+                            "font-family": "futura, sans-serif",
+                            ":hover": {
+                              "background-color": "#e57a08"
+                            },
+                            ":focus": {
+                              "background-color": "#e57a08"
+                            },
+                            "font-weight": "bold"
+                          },
+                          "variantTitle": {
+                            "font-family": "Open Sans, sans-serif",
+                            "font-weight": "normal"
+                          },
+                          "title": {
+                            "font-family": "Open Sans, sans-serif",
+                            "font-size": "26px"
+                          },
+                          "description": {
+                            "font-family": "Open Sans, sans-serif",
+                            "font-weight": "normal"
+                          },
+                          "price": {
+                            "font-family": "Open Sans, sans-serif",
+                            "font-size": "18px",
+                            "font-weight": "normal"
+                          },
+                          "compareAt": {
+                            "font-size": "15px",
+                            "font-family": "Open Sans, sans-serif",
+                            "font-weight": "normal"
+                          }
+                        },
+                        "googleFonts": [
+                          "Open Sans",
+                          "Open Sans",
+                          "Open Sans",
+                          "Open Sans",
+                          "Open Sans",
+                          "Open Sans"
+                        ]
+                      },
+                      "cart": {
+                        "contents": {
+                          "button": true
+                        },
+                        "styles": {
+                          "button": {
+                            "background-color": "#fe8709",
+                            "font-family": "Open Sans, sans-serif",
+                            ":hover": {
+                              "background-color": "#e57a08"
+                            },
+                            ":focus": {
+                              "background-color": "#e57a08"
+                            },
+                            "font-weight": "bold"
+                          },
+                          "footer": {
+                            "background-color": "#ffffff"
+                          }
+                        },
+                        "googleFonts": [
+                          "Open Sans"
+                        ]
+                      },
+                      "modalProduct": {
+                        "contents": {
+                          "variantTitle": false,
+                          "buttonWithQuantity": true,
+                          "button": false,
+                          "quantity": false
+                        },
+                        "styles": {
+                          "product": {
+                            "@media (min-width: 601px)": {
+                              "max-width": "100%",
+                              "margin-left": "0px",
+                              "margin-bottom": "0px"
+                            }
+                          },
+                          "button": {
+                            "background-color": "#fe8709",
+                            "font-family": "Open Sans, sans-serif",
+                            ":hover": {
+                              "background-color": "#e57a08"
+                            },
+                            ":focus": {
+                              "background-color": "#e57a08"
+                            },
+                            "font-weight": "bold"
+                          },
+                          "variantTitle": {
+                            "font-family": "Open Sans, sans-serif",
+                            "font-weight": "normal"
+                          },
+                          "title": {
+                            "font-family": "Open Sans, sans-serif"
+                          },
+                          "description": {
+                            "font-family": "Open Sans, sans-serif",
+                            "font-weight": "normal"
+                          },
+                          "price": {
+                            "font-family": "Open Sans, sans-serif",
+                            "font-weight": "normal"
+                          },
+                          "compareAt": {
+                            "font-family": "Open Sans, sans-serif",
+                            "font-weight": "normal"
+                          }
+                        },
+                        "googleFonts": [
+                          "Open Sans",
+                          "Open Sans",
+                          "Open Sans",
+                          "Open Sans",
+                          "Open Sans",
+                          "Open Sans"
+                        ]
+                      },
+                      "toggle": {
+                        "styles": {
+                          "toggle": {
+                            "font-family": "Open Sans, sans-serif",
+                            "background-color": "#fe8709",
+                            ":hover": {
+                              "background-color": "#e57a08"
+                            },
+                            ":focus": {
+                              "background-color": "#e57a08"
+                            },
+                            "font-weight": "bold"
+                          },
+                          "count": {
+                            "color": "#ffffff",
+                            ":hover": {
+                              "color": "#ffffff"
+                            }
+                          },
+                          "iconPath": {
+                            "fill": "#ffffff"
+                          }
+                        },
+                        "googleFonts": [
+                          "Open Sans"
+                        ]
+                      },
+                      "option": {
+                        "styles": {
+                          "label": {
+                            "font-family": "Open Sans, sans-serif"
+                          },
+                          "select": {
+                            "font-family": "Open Sans, sans-serif"
+                          }
+                        },
+                        "googleFonts": [
+                          "Open Sans",
+                          "Open Sans"
+                        ]
+                      },
+                      "productSet": {
+                        "styles": {
+                          "products": {
+                            "@media (min-width: 601px)": {
+                              "margin-left": "-20px"
+                            }
+                          }
+                        }
+                      }
+                    }
+                          });
+                        });
+                      }
+                    })();
+                    /*]]>*/
+                    </script>
+
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p class="book-cost">Only $10</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- <div class="container">
           <div class="book">
             <h1>THE SITTING EPIDEMIC</h1>
             <p>How physical inactivity and sitting are causing a health crisis for the modern world</p>
@@ -97,11 +382,10 @@
             </div>
             <div class="row">
               <div class="btn-wrapper">
-                <div class="col-md-6 col-sm-6 col-xs-6">
-                  <button type="submit" class="btn btn-default m-btn m-btn-green-block pull-right">Free Sample</button>
+                <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+                  <button type="submit" class="btn btn-default m-btn m-btn-green-block">Free Sample</button>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-6">
-                  <!-- <button type="submit" class="btn btn-default m-btn m-btn-orange m-btn-orange-block m-btn-min pull-left">Download Book</button> -->
+                <div class="col-md-6 col-sm-6 col-xs-6 text-center">
                   
                   <div id='product-component-996bb1ffa81'></div>
                   <script type="text/javascript">
@@ -163,7 +447,7 @@
                   "button": {
                   "background-color": "#fe8709",
                   "text-transform": "uppercase",
-                  "padding": "10px 40px",
+                  "padding": "10px 15px",
                   "margin-top": "0px",
                   "margin-botton": "0px",
                   "font-family": "futura, sans-serif",
@@ -351,7 +635,49 @@
             </div>
             <p>Share with a friend</p>
           </div>
-        </div>
+        </div> -->
+
+        <section class="share">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>Share with a friend</p>
+                <div class='oss-widget-interface'></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="phil-vert-line">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="vert-line vert-line-small">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="end-page">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 text-center end-page-img">
+                <img src="images/m-desk-with-content.png" width="85%" alt="Movi Workspace Desk Image" />
+              </div>
+              <div class="col-md-6">
+                <div class="end-page-title">
+                  <p>IMPROVE YOUR HEALTH & ACTIVATE YOUR WORKSPACE</p>
+                </div>
+                <!-- <div class="end-page-price">
+                  <p>$695</p>
+                </div> -->
+                <div class="end-page-cta">
+                  <a href="desk.html" class="btn btn-default m-btn m-btn-min m-btn-green m-btn-lg">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         
         <footer class="footer">
           <div class="container-fluid">
@@ -415,19 +741,20 @@
                   <p>
                     © Movi workspace 2016 |
                     <a href="t&c.html" class="btn btn-default m-btn m-btn-simple m-btn-footer">Terms &amp; Conditions</a>
-                    <a href="contact.html" class="btn btn-default m-btn m-btn-simple m-btn-footer hidden-xs"> | Patent Pending</a>
+                    |
+                    <a href="patentpending.html" class="btn btn-default m-btn m-btn-simple m-btn-footer hidden-xs"> Patent Pending</a>
                   </p>
                 </div>
               </div>
               <div class="col-md-6">
                 <ul class="pull-right footer-wrapper-list">
-                  <li class="social-icons"><a href="#" class="btn btn-default m-btn m-btn-simple m-btn-footer">Twitter <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <li class="social-icons"><a href="https://www.facebook.com/MOVIworkspace/" class="btn btn-default m-btn m-btn-simple m-btn-footer">Facebook <i class="fa fa-facebook" aria-hidden="true"></i>
                   </a></li>
-                  <li class="social-icons"><a href="#" class="btn btn-default m-btn m-btn-simple m-btn-footer">Facebook <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <li class="social-icons"><a href="https://twitter.com/MOVIworkspace" class="btn btn-default m-btn m-btn-simple m-btn-footer">Twitter <i class="fa fa-twitter" aria-hidden="true"></i>
                   </a></li>
-                  <li class="social-icons"><a href="#" class="btn btn-default m-btn m-btn-simple m-btn-footer">Youtube <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <li class="social-icons"><a href="https://www.instagram.com/moviworkspace/" class="btn btn-default m-btn m-btn-simple m-btn-footer">Instagram <i class="fa fa-instagram" aria-hidden="true"></i>
                   </a></li>
-                  <li class="social-icons"><a href="#" class="btn btn-default m-btn m-btn-simple m-btn-footer">Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <li class="social-icons"><a href="https://www.linkedin.com/company/movi-workspace" class="btn btn-default m-btn m-btn-simple m-btn-footer">Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i>
                   </a></li>
                 </ul>
               </div>
@@ -488,6 +815,10 @@
         $(function () {
         $('[data-toggle="popover"]').popover()
         })
+        </script>
+
+        <!-- Social Plugin -->
+        <script type="text/javascript" src="//sharecdn.social9.com/v2/js/opensocialshare.js"></script><script type="text/javascript" src="//sharecdn.social9.com/v2/js/opensocialsharedefaulttheme.js"></script><link rel="stylesheet" type="text/css" href="//sharecdn.social9.com/v2/css/os-share-widget-style.css"/><script type="text/javascript">var shareWidget = new OpenSocialShare();shareWidget.init({isHorizontalLayout: 1,widgetIconSize: "32",widgetStyle: "square",theme: 'OpenSocialShareDefaultTheme',providers: { top: ["Facebook","Twitter","GooglePlus","LinkedIn"]}});shareWidget.injectInterface(".oss-widget-interface");shareWidget.setWidgetTheme(".oss-widget-interface");
         </script>
       </body>
     </html>
