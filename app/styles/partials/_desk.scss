@@ -1,0 +1,20 @@
+.desk-img {
+	border-radius: 4px!important;
+}
+
+section.desk-stages {
+	padding: 0 0 90px 0;
+	.desk-stages-title-content {
+		margin-bottom: 60px;
+		h2 {
+			text-transform: uppercase;
+			color: $green;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+	.desk-stage-img {
+		margin-bottom: 60px;
+	}
+}
